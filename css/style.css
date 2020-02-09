@@ -1,0 +1,67 @@
+body {
+  background: #A2D0B0;
+  font-family: "Yu Gothic";
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  margin: auto;
+  width: 960px;
+}
+
+.title {
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.sazae {
+  margin: auto;
+  width: 480px;
+}
+
+.result {
+  font-size: 2em;
+  font-weight: bold;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+}
+
+.janken {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.janken .janken_item {
+  list-style-type: none;
+  width: 200px;
+}
+
+.janken .janken_item input {
+  display: none;
+}
+
+.janken .janken_item img {
+  -webkit-filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.5));
+  -webkit-transition: .05s filter;
+  transition: .05s filter;
+}
+
+.janken .janken_item:active img {
+  -webkit-filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.5));
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">じゃんけん</h1>
+        <div class="sazae"><img src="img/janken.jpg" alt=""></div>
+        <p class="result"></p>
+        <ul class="janken">
+            <li class="janken_item">
+                <label>
+                    <input name="hand" type="radio" value="4" class="button rock">
+                    <img src="img/janken_gu.png" alt="">
+                </label>
+            </li>
+            <li class="janken_item">
+                <label>
+                    <input name="hand" type="radio" value="5" class="button scissors">
+                    <img src="img/janken_choki.png" alt="">
+                </label>
+            </li>
+            <li class="janken_item">
+                <label>
+                    <input name="hand" type="radio" value="6" class="button paper">
+                    <img src="img/janken_pa.png" alt="">
+                </label>
+            </li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
